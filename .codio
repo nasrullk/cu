@@ -1,5 +1,16 @@
-<htm>
+{
+// Configure your Run and Preview buttons here.
 
-hello world
+// Run button configuration
+  "commands": {
+        "Node version": "node --version"
+  },
 
-</html>
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain}}:3000/",
+        "Box URL SSL": "https://{{domain}}:9500/"
+  }
+}
