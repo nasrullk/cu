@@ -56,7 +56,6 @@ nav a:hover{
 }
 
 #border{
-  /*  margin:0px auto;  */
 	padding:15px;
     width:auto;
     height:auto;
@@ -108,7 +107,8 @@ footer{
 }
 .ubutton{
      text-align:center;
-    margin:4px;
+     width:75%;
+     margin:4px;
      font-size: 85%;
      background: rgb(66, 184, 221);
      color: white;
