@@ -1,10 +1,22 @@
 <!DocTYPE html>
 <html lang="en">
 	<head>
-	<meta charset="utf-8" />
-	<title> K upload</title>
+     <meta charset="utf-8" />
+        
+       <div itemscope itemtype="http://schema.org/Person">
+       <link itemprop="url" href="www.k-upload.com"> 
+       <meta itemprop="name" content="k-upload"/>
+       </div>
+       <div itemscope itemtype="http://schema.org/Organization"> 
+       <meta itemprop="name" content="unlimited files"/>
+       <meta itemprop="description" content="upload and share files"/>
+       </div>
+        
+      <title> K upload</title>
+        
     <link rel="stylesheet" href="style.css">
 	</head>
+   
     
 <body>
     <div id="page">
@@ -12,12 +24,13 @@
         <img height=45px width=55px src="http://3.bp.blogspot.com/-DWNSywIG2Dc/UbiT8LXc91I/AAAAAAAAAwQ/qvFT5XsIqqk/s1600/upload-database.png" />
         <font face="Arial" size="14">K-Upload</font>
         <b><font size="5">Upload & Share your files!</font></b>
-        
     </header>
         <div id="main">
       <nav>
         <ol>
            <li><a href='index.html'>Home</a></li>
+           <li><a href='index.html'>Log in</a></li>
+           <li><a href='index.html'>Register</a></li>
            <li><a href="#">Rules</a></li>
            <li><a href="#">TOS</a></li>
            <li><a href="#">Contact Us</a></li>
@@ -29,11 +42,48 @@
         <div id="innerborder">
             <p>Welcome to K-upload.</p><br>
             <p>You are allowed to upload whatever you like,</p>
-            <p>As far it complies with the <a href="#">TOS</a></p>
+            <p>As far it complies with the <a href="#">TOS</a>.</p>
+            <br>
+            <p>Accept TOS and Rules, to enable the File Upload Button.</p>
+            <br>
+            <br>
+
+            <section>
+            <button class="button" onclick="allow()">I Accept TOS & Rules</button>
+            <br><br>
+                
+             <input class="ubutton" type="file" id="myFile"><br>
+             <input class="ubutton" type="file" id="myFile2"><br>
+             <input class="ubutton" type="file" id="myFile3"><br>
+             <input class="ubutton" type="file" id="myFile4"><br>
+             <input class="ubutton" type="file" id="myFile5">
+               
+               <br><br>
+               <button class="button" onclick="upload()">Upload</button>
+                
+            <script>
+                document.getElementById("myFile").disabled = true; 
+                document.getElementById("myFile2").disabled = true;  
+                document.getElementById("myFile3").disabled = true;  
+                document.getElementById("myFile4").disabled = true;  
+                document.getElementById("myFile5").disabled = true; 
+                
+                function allow() {
+                document.getElementById("myFile").disabled = false;
+                document.getElementById("myFile2").disabled = false;
+                document.getElementById("myFile3").disabled = false;
+                document.getElementById("myFile4").disabled = false;
+                document.getElementById("myFile5").disabled = false;
+                }
+                function upload() {
+                alert("Sorry, Server maintaince")
+                }
+            </script>   
+            </section>
         </div>
     </div>
     <footer>
-      <p>©2011 Domain.com All Rights Reserved..</p>
+      <p>©2015 K-upload.com All Rights Reserved..<p>
     </footer>
 </body>
 </html>

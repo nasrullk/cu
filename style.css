@@ -28,7 +28,7 @@ header b{
 }
 nav{
     width:100%;
-    padding-top:3px;
+    padding-top:5px;
     padding-bottom:4px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,103,158,1)), color-stop(50%,rgba(43,136,217,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1)));
     margin:auto;
@@ -42,7 +42,7 @@ nav ol {
 nav ol li{
     display:inline;
     color:black;
-    margin: 100px;
+    margin: 70px;
     font-size:18pt;
     
 }
@@ -63,7 +63,7 @@ nav a:hover{
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(45,45,45,1)), color-stop(29%,rgba(89,89,89,1)), color-stop(44%,rgba(71,71,71,1)), color-stop(61%,rgba(76,76,76,1)), color-stop(78%,rgba(107,107,107,1)), color-stop(100%,rgba(43,43,43,1)));
 }
 #innerborder{
-    text-align:left;
+    text-align:center;
     margin:0px auto;
     font-size:20px;
 	padding:15px;
@@ -75,6 +75,7 @@ nav a:hover{
     background: -webkit-gradient(linear, left top, left bottom, color-stop(16%,rgba(89,89,89,1)), color-stop(28%,rgba(71,71,71,1)), color-stop(80%,rgba(76,76,76,1)), color-stop(98%,rgba(107,107,107,1)));
 }
 #innerborder p{
+    padding-top:20px;
     color:white;
 }
 #innerborder a{
@@ -94,4 +95,25 @@ footer{
     height:25px;
     text-decoration:underline;
     margin-top:9px;
+}
+.button{
+     text-align:center;
+     font-size: 85%;
+     background: rgb(66, 184, 221);
+     color: white;
+     border-color: rgb(66, 184, 221);
+     border-width: 8px;
+     border-radius: 4px;
+     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.ubutton{
+     text-align:center;
+    margin:4px;
+     font-size: 85%;
+     background: rgb(66, 184, 221);
+     color: white;
+     border-color: rgb(66, 184, 221);
+     border-width: 8px;
+     border-radius: 4px;
+     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
